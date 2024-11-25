@@ -1,8 +1,29 @@
-# React + Vite
+# 📚🌱 Doação de Livros 📚🌱
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bem-vindo ao projeto **Doação de Livros**! Este site foi desenvolvido como parte de um **desafio escolar**, com o objetivo de aplicar os conhecimentos adquiridos em **JavaScript com React** e práticas de desenvolvimento web. O projeto é direcionado **para fins de estudo** e será publicado na web como parte da conclusão do curso.
 
-Currently, two official plugins are available:
+## 🖥️ Tecnologias Utilizadas 🖥️
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **React.js**: Biblioteca JavaScript para a construção de interfaces de usuário.
+- **JavaScript (ES6+)**: Linguagem de programação utilizada no desenvolvimento do site.
+- **Sass**: Para estilização e design responsivo.
+- **HTML5**: Estrutura básica do projeto.
+- **Git e GitHub**: Controle de versão e hospedagem do código-fonte.
+
+## 🎯 Objetivos 🎯
+
+- Aplicar conceitos teóricos e práticos aprendidos no curso.
+- Facilitar o acesso a livros através de um sistema de doações.
+- Criar um site responsivo que proporcione uma boa experiência para usuários em diversos dispositivos.
+- Demonstrar habilidades em desenvolvimento web para avaliação do módulo.
+
+## 🚀 Funcionalidades 🚀
+
+- **Cadastro de doadores e receptores**: Usuários podem criar contas e gerenciar suas atividades no site.
+- **Busca por livros**: Pesquise por títulos disponíveis por gênero, autor ou localização.
+- **Sistema de doações**: Gerencie a doação e o recebimento de livros diretamente pela plataforma.
+- **Informações e dicas**: Seção dedicada a artigos e informações sobre leitura, cuidado com os livros e sustentabilidade.
+
+OBS: Ainda em desenvolvimento.
+
+
