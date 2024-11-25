@@ -1,6 +1,6 @@
 # 📚🌱 Doação de Livros 📚🌱
 
-Bem-vindo ao projeto **Doação de Livros**! Este site foi desenvolvido como parte de um **desafio escolar**, com o objetivo de aplicar os conhecimentos adquiridos em **JavaScript com React** e práticas de desenvolvimento web. O projeto é direcionado **para fins de estudo** e será publicado na web como parte da conclusão do curso.
+Bem-vindo ao projeto **Doação de Livros**! Este site foi desenvolvido como parte de um **desafio da Escola Vai Na Web**, com o objetivo de aplicar os conhecimentos adquiridos em **JavaScript com React** e práticas de desenvolvimento web. O projeto é direcionado **para fins de estudo** e será publicado na web como parte da conclusão do curso.
 
 ## 🖥️ Tecnologias Utilizadas 🖥️
 
