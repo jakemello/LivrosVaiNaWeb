@@ -1,16 +1,23 @@
 header {
+    position: fixed;
+    top: 0; 
+    left: 0;
     background: linear-gradient(90deg, #001B2F 0%, #005695 100%);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
     display: flex;
     justify-content: space-between;
-    align-items: center; 
+    align-items: center;
+    width: 100%;
     height: 20vh;
-}
+    z-index: 1000; 
+  }
 
 .logoHeader {
     display: flex;
     width: 20%;
     justify-content: space-around;
     align-items: center;
+    gap: 10px;
 
 
     img {
@@ -18,8 +25,17 @@ header {
     }
 
     h1 {
-        font-size: 30px;
-        color: #FFF;
+        font-size: 27px;
+        color: #FFF;font-size: 27px;
+        text-shadow: black 5px 9px 4px; 
+        opacity: 0;
+        animation: fadeIn 4s forwards ;       
+    }
+    @keyframes fadeIn {
+        to {
+            opacity: 1;
+        }
+        
     }
 }
 
@@ -31,40 +47,76 @@ header {
         justify-content: space-around;
         list-style: none;
     }
+    li {
+        &:hover {
+          text-shadow: rgb(8, 151, 233) 1px 1px 3px;
+          scale: 1.1;
+        }
+      }
 }
 
 .link {
     color: #FFF;
     font-size: 20px;
     text-decoration: none;
+
+    &:hover {
+        text-shadow: rgb(65, 135, 241) 1px 3px 3px;
+      }
+      
 }
 
 .barraDeBusca {
-    border: solid #FFF;
-    border-radius: 20px;
-    margin-right: 1%;
-    width: 20%;
-    height: 6vh;
+    border: 1px solid #FFF;
+    border-radius: 16px;
+    margin-right: 2%;
+    width: 15%;
+    height: 5vh;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
 
     input {
-        background-color: transparent;
+        height: 2rem;
+        border-radius: 16px;
+        text-indent: 20px;
         border: none;
-        width: 60%;
-        height: 5vh;
-
-        &::placeholder{
-            color: #FFF;
-            font-size: 20px;
-        }
+        background: none;
+        color: white;
+        outline: none;
     }
 
     button {
-        background-color: transparent;
         border: none;
+        width: 2.5rem;
+        height: 2rem;
+        border-radius: 0 16px 16px 0;
+        background-color: transparent;
+        
 
         cursor:pointer;
+    }
+}
+
+
+@media (max-width: 780px){
+    header {
+        flex-direction: column;
+        justify-content: space-evenly;
+        
+    }
+
+    .logoHeader {
+        width: 90%;
+
+        img {
+            width: 15%;
+        }
+    }
+    .navHeader {
+        width: 95%;
+    }
+    .barraDeBusca {
+        display: none;
     }
 }

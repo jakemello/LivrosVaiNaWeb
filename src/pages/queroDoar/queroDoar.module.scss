@@ -1,0 +1,84 @@
+.queroDoarSection {
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 20vh;
+
+    p {
+        font-size: 24px;
+    }
+}
+
+    form {
+    border: solid #005695 3px;
+    border-radius: 20px;
+    height: 70vh;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+    div {
+        display: flex;
+        width: 80%;
+        justify-content: space-evenly;
+        align-items: center;
+        color: #005695;
+    }
+
+    input {
+        width: 80%;
+        height: 5vh;
+        border: solid #005695 2px;
+        border-radius: 15px;
+        padding-left: 20px;
+    }
+   
+    &::placeholder {
+        color: #000;
+    }
+
+}
+
+.buttonDoar {
+    width: 50%;
+    height: 8vh;
+    font-size: 24px;
+    background-color: #005695;
+    color: #FFF;
+    border: solid #0404146c ;
+    cursor: pointer;
+    padding: 0;
+
+    &:hover {
+        color: #fff;
+        box-shadow: 0 0 10px #088fe9b7;
+        text-shadow: #FFF 1px 1px 3px;
+        scale: 1.1;
+    }
+
+}
+
+@media (max-width: 780px){
+    .queroDoarSection {
+        height: 100vh;
+
+        p {
+            font-size: 18px;
+            width: 72%;
+            text-align: center;
+        }
+    }
+
+    form {
+        width: 90%;
+
+        h2 {
+            font-size: 20px;
+            text-align: center;
+        }
+    }
+}

@@ -7,6 +7,8 @@
     display: flex;
     align-items: center;
     padding-left: 6%;
+    margin-top: 20vh; /* Adiciona espaço equivalente à altura do header */
+    
 
     h2 {
         color: #fff;
@@ -14,3 +16,89 @@
         width: 20%;
     }
 }
+
+.porqueDoarSection {
+    display: flex;
+    height: 75vh;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+    h2 {
+        width: 90%;
+        font-size: 40px;
+        color: #005695;
+    }
+}
+
+.cardMotivos {
+    display: flex;
+    height: 50vh;
+    justify-content: space-evenly;
+}
+
+.cardMotivos section {
+    background-color: #0157944D;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out, z-index 0.3s ease-in-out;
+    position: relative; 
+
+    p {
+        font-size: 22px;
+        text-align: center;
+        width: 80%;
+    }
+}
+
+.cardMotivos section:hover {
+    z-index: 10; 
+    transform: scale(1.1); 
+    box-shadow: 0px 4px 10px rgba(10, 34, 114, 0.897); 
+}
+
+@media (max-width: 780px){
+    .primeiraSessaoInicio {
+        background-position: center;
+        height: 50vh;
+
+        h2 {
+            width: 90%;
+            font-size: 28px;
+            text-align: center;
+        }
+    }
+
+    .porqueDoarSection {
+        height: 120vh;
+
+        h2 {
+            font-size: 30px;
+            text-align: center;
+        }
+    }
+
+    .cardMotivos {
+        height: 110vh;
+        flex-direction: column;
+        align-items: center;
+
+        section {
+            width: 70%;
+            height: 23vh;
+
+            p {
+                font-size: 18px;
+            }
+
+            img {
+                width: 15%;
+            }
+        }
+    }
+}
+
