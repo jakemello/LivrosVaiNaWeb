@@ -24,6 +24,6 @@ Bem-vindo ao projeto **Doação de Livros**! Este site foi desenvolvido como par
 - **Sistema de doações**: Gerencie a doação e o recebimento de livros diretamente pela plataforma.
 - **Informações e dicas**: Seção dedicada a artigos e informações sobre leitura, cuidado com os livros e sustentabilidade.
 
-OBS: Ainda em desenvolvimento.
+OBS: Ainda em desenvolvimento, apenas primeira parte do Front-end está pronta.
 
 
