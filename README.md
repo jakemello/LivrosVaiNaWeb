@@ -4,7 +4,7 @@ Bem-vindo ao projeto **Doação de Livros**! Este site foi desenvolvido como par
 
 #🎨 Design 🎨
 O design da página foi disponibilizado pela Vai na Web, e pode ser consultado no figma.
-Link para visualização: https://www.figma.com/design/MDGn9uI2Ny5Y8sOJWnmfRp/Proposta-Empower?node-id=0-1&node-type=canvas&t=3Kl48uLDGAjYeLz6-0
+[✨Layout no Figma ✨]([https://www.figma.com/](https://www.figma.com/design/MDGn9uI2Ny5Y8sOJWnmfRp/Proposta-Empower?node-id=0-1&node-type=canvas&t=3Kl48uLDGAjYeLz6-0))
 
 ## 🖥️ Tecnologias Utilizadas 🖥️
 
