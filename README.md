@@ -3,8 +3,8 @@
 Bem-vindo ao projeto **Doação de Livros**! Este site foi desenvolvido como parte de um **desafio da Escola Vai Na Web**, com o objetivo de aplicar os conhecimentos adquiridos em **JavaScript com React** e práticas de desenvolvimento web. O projeto é direcionado **para fins de estudo** e será publicado na web como parte da conclusão do módulo do curso (Front-End).
 
 #🎨 Design 🎨
-O design da página foi disponibilizado pela Vai na Web, e pode ser consultado no figma.
-[✨Layout no Figma ✨]([https://www.figma.com/](https://www.figma.com/design/MDGn9uI2Ny5Y8sOJWnmfRp/Proposta-Empower?node-id=0-1&node-type=canvas&t=3Kl48uLDGAjYeLz6-0))
+O design da página foi disponibilizado pela Vai na Web, e pode ser consultado no figma.  
+[✨Layout no Figma✨](https://www.figma.com/design/MDGn9uI2Ny5Y8sOJWnmfRp/Proposta-Empower?node-id=0-1&node-type=canvas&t=3Kl48uLDGAjYeLz6-0)
 
 ## 🖥️ Tecnologias Utilizadas 🖥️
 
