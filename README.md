@@ -1,4 +1,4 @@
-# 📚🌱 Doação de Livros 📚🌱
+# 📚🌱 Doação de Livros Vai Na Web 📚🌱
 
 Bem-vindo ao projeto **Doação de Livros**! Este site foi desenvolvido como parte de um **desafio da Escola Vai Na Web**, com o objetivo de aplicar os conhecimentos adquiridos em **JavaScript com React** e práticas de desenvolvimento web. O projeto é direcionado **para fins de estudo** e será publicado na web como parte da conclusão do módulo do curso (Front-End).
 
@@ -23,11 +23,10 @@ Bem-vindo ao projeto **Doação de Livros**! Este site foi desenvolvido como par
 
 ## 🚀 Funcionalidades 🚀
 
-- **Cadastro de doadores e receptores**: Usuários podem criar contas e gerenciar suas atividades no site.
 - **Busca por livros**: Pesquise por títulos disponíveis por gênero, autor ou localização.
 - **Sistema de doações**: Gerencie a doação e o recebimento de livros diretamente pela plataforma.
 - **Informações e dicas**: Seção dedicada a artigos e informações sobre leitura, cuidado com os livros e sustentabilidade.
 
-OBS: Ainda em desenvolvimento, apenas primeira parte do Front-end está pronta.
+OBS: Ainda em desenvolvimento, apenas a primeira parte do Front-end está pronta.
 
 
